@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <item android:title="Funktionen">
+        <menu>
+            <item
+                android:id="@+id/nav_meinewege"
+                android:icon="@android:drawable/ic_menu_set_as"
+                android:title="Meine Wege" />
+            <item
+                android:id="@+id/nav_hilfe"
+                android:icon="@android:drawable/ic_menu_help"
+                android:title="Hilfe" />
+            <item
+                android:id="@+id/nav_impressum"
+                android:icon="@android:drawable/ic_dialog_info"
+                android:title="Impressum" />
+        </menu>
+    </item>
+
+</menu>
